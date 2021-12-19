@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "bukkitgradletemplate"
+rootProject.name = "giantrestoration"

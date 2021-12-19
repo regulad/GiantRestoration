@@ -11,7 +11,7 @@ plugins {
 
 group = "xyz.regulad"
 version = "1.0.0-SNAPSHOT"
-description = "A template plugin for Minecraft Paper Plugins with Gradle."
+description = "Adds Zombie AI to Giants."
 
 java {
     toolchain.languageVersion.set(JavaLanguageVersion.of(17))
@@ -44,7 +44,7 @@ tasks {
     }
 
     shadowJar {
-        fun reloc(pkg: String) = relocate(pkg, "xyz.regulad.bukkitgradletemplate.dependency.$pkg")
+        fun reloc(pkg: String) = relocate(pkg, "xyz.regulad.giantrestoration.dependency.$pkg")
 
         reloc("org.bstats")
     }
@@ -71,8 +71,8 @@ publishing {
 */
 
 bukkit {
-    name = "BukkitTemplate"
-    main = "xyz.regulad.bukkitgradletemplate.BukkitTemplate"
+    name = "GiantRestoration"
+    main = "xyz.regulad.giantrestoration.GiantRestoration"
     apiVersion = "1.18"
     authors = listOf("regulad")
     libraries = listOf("org.jetbrains:annotations:23.0.0")
