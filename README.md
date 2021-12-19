@@ -1,3 +1,3 @@
-# BukkitGradleTemplate
+# GiantRestoration
 
-A template plugin for Minecraft Paper Plugins with Gradle.
+Adds Zombie AI to Giants.
