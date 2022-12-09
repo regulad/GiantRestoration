@@ -21,7 +21,7 @@ dependencies {
     paperDevBundle("1.18.1-R0.1-SNAPSHOT")
 
     implementation("org.bstats", "bstats-bukkit", "2.2.1")
-    compileOnly("org.jetbrains", "annotations", "23.0.0")
+    compileOnly("org.jetbrains", "annotations", "23.1.0")
 }
 
 tasks {
